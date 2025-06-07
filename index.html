@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Project Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Projects Tracker</h1>
+
+  <div class="add-category">
+    <input type="text" id="categoryInput" placeholder="Add new project...">
+    <button onclick="addCategory()">➕ Add Project</button>
+    <button onclick="resetAll()">🗑️ Remove All</button>
+  </div>
+
+  <ul id="categoryList"></ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
